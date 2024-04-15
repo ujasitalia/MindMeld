@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import { Card, CardContent } from "./ui/card";
 import { MAX_FREE_COUNTS } from "@/constants";
 import { Progress } from "./ui/progress";
-import { Button } from "./ui/button";
 
 type Props = {
   apiLimitCount: number;
